@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Snack(models.Model):
   name=models.CharField(max_length=64)
   purchase=models.ForeignKey('auth.User' ,on_delete=models.CASCADE)

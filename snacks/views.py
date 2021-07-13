@@ -1,4 +1,3 @@
-from snacks.models import Snack
 from django.views.generic import ListView ,TemplateView,DetailView
 from .models import Snack
 
